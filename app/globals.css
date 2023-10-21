@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,10 +20,18 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: beige;
+  font-family: "Tilt Neon";
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  color: rgb(185, 0, 71);
+  text-decoration: underline;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
 }
