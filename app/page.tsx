@@ -13,6 +13,13 @@ export default function Home() {
           height={500}
           alt="gif d'un chat sur le dos"
         />
+        <Image
+          src="/welcome.png"
+          width={663}
+          height={182}
+          alt="bandeau welcome"
+          className="welcome"
+        />
       </div>
     </main>
   );

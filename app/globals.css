@@ -39,4 +39,21 @@ h1 {
 .imageaccueil {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.welcome {
+  animation-duration: 0.8s;
+  animation-name: rotation;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
